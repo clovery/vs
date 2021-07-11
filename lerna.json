@@ -2,20 +2,14 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.1",
+  "version": "0.0.0",
   "npmClient": "yarn",
   "publish": {
     "message": "chore(release): publish",
     "registry": "https://registry.npmjs.org/",
-    "allowBranch": [
-      "master",
-      "develop",
-      "alpha"
-    ]
+    "allowBranch": ["master", "develop", "alpha"]
   },
   "bootstrap": {
-    "npmClientArgs": [
-      "--no-package-lock"
-    ]
+    "npmClientArgs": ["--no-package-lock"]
   }
 }

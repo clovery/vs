@@ -1,6 +1,6 @@
 {
   "name": "vs-ioc-react",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/@types",
