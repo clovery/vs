@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-import-patterns",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/@types",
+  "scripts": {
+    "build": "rimraf lib && tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.30.0",
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.2.14",
+    "@types/node": "^16.3.1",
+    "@typescript-eslint/experimental-utils": "^4.28.2",
+    "rimraf": "^3.0.2"
+  }
+}
